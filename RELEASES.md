@@ -63,3 +63,13 @@
 
 ### 3.2.2
 - Reverted the changes made in 3.2.1 to use gnu tar and zstd by default on windows.
+
+### 3.2.3
+- Support cross os caching on Windows as an opt-in feature.
+- Fix issue with symlink restoration on Windows for cross-os caches.
+
+### 3.2.4
+- Added option to fail job on cache miss.
+
+### 3.2.5
+- Added fix to prevent from setting MYSYS environment variable globally.
